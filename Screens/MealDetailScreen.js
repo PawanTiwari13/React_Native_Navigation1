@@ -19,7 +19,7 @@ function MealDetailScreen({route,navigation}) {
        }else {
            favoriteMealsCtx.addFavorite(mealId);
        }
-console.log("Pressed !");
+console.log("Your Favorite Meal");
    }
     useLayoutEffect(()=>{
       navigation.setOptions({
